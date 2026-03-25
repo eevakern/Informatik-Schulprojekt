@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Eva's Filme - Datenbank</title>
+    <link rel="stylesheet" href="Style_Eva.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">← Zurück zur Startseite</a>
+        </nav>
+
+        <main>
+            <h1>Meine Filmseite</h1>
+            <p>Hier kannst du die Daten aus der "Daten_Eva.db" laden:</p>
+            
+            <button id="load">Filme anzeigen</button>
+
+            <div class="table-container">
+                <table id="table"></table>
+            </div>
+        </main>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+    <script src="Script_Eva.js"></script>
+</body>
+</html>

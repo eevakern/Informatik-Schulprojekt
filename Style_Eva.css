@@ -1,0 +1,75 @@
+/* Grunddesign */
+body {
+    background-color: #121212; 
+    color: #ffffff;           
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #e50914; 
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Button Design */
+#load, .btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    display: inline-block;
+}
+
+#load:hover, .btn:hover {
+    background-color: #b20710;
+}
+
+/* Tabellen Design */
+.table-container {
+    margin-top: 30px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+table th {
+    background-color: #333;
+    color: #e50914;
+}
+
+nav a {
+    color: #888;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #fff;
+}
